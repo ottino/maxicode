@@ -32,6 +32,72 @@ disqusShortname = ''
 		endLevel = 4 # ToC ends at H4
 		ordered = false # generates <ul> instead of <ol>
 
+############################## Idioma Español ################################
+[Languages.es]
+  languageName = "Español"
+  languageCode = "es"
+  contentDir = "content/es"
+  weight = 2
+
+  [Languages.es.menu]
+  [[Languages.es.menu.main]]
+    # La referencia de la página (pageRef) es útil para resaltar el menú
+    # Cuando pageRef está configurado, establecer `url` es opcional; se utilizará como un valor de reserva si la página no se encuentra.
+    pageRef="/"
+    name = 'Inicio'
+    url = '/'
+    weight = 10
+  [[Languages.es.menu.main]]
+    pageRef="entradas"
+    name = 'Entradas'
+    url = '/entradas/'
+    weight = 20
+  [[Languages.es.menu.main]]
+    pageRef="about"
+    name = 'Acerca de'
+    url = '/about/'
+    weight = 30
+
+[Languages.es.params]
+  sitename = "Libertad-Digital"
+  defaultColor = "dark" # establecer modo de color: dark, light, auto
+  # Establecerlo en 'auto' aplica el esquema de color según la preferencia de color del dispositivo del visitante. Si no especificas nada, ignora este parámetro o déjalo en blanco,
+  # el valor predeterminado se establece en 'auto'.
+  # Puedes consultar layouts/index.html para obtener más información.
+  description = "Tema de blog Hugo minimalista con soporte para modo claro y oscuro"
+  mainSections = ['entradas']
+  toc = true # establecer en false para desactivar la tabla de contenido 'globalmente'
+  tocOpen = false # establecer en true para abrir la tabla de contenido de forma predeterminada
+  goToTop = true # establecer en false para desactivar el botón 'ir arriba'
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  # Intentará cargar 'assets/js/custom.js' y 'assets/js/custom-2.js'.
+  # Tus scripts personalizados se concatenarán en un archivo `custom.js`.
+  # Al construir para producción, se minimizará.
+  # El archivo `custom.js` se carga en cada página (antes de que termine la etiqueta body).
+  dateFormat = "" # formato de fecha utilizado para mostrar fechas en varias páginas. Si no se especifica nada, se utiliza el formato "2 Jan 2006".
+  # Ver https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference para conocer los formatos de fecha disponibles.
+  rssFeedDescription = "summary" # opciones disponibles: 1) summary 2) full
+  # resumen - incluye un breve resumen de la entrada de blog en el feed RSS. Generado usando Hugo .Summary .
+  # completo - incluye la entrada completa de blog en el feed RSS. Generado usando Hugo .Content .
+  # Por defecto (o si no se especifica nada), se utiliza el resumen.
+
+[Languages.es.params.author]
+  avatar = "avatar.jpg" # coloca el archivo en la carpeta assets; también asegúrate de que la imagen tenga la misma altura y anchura
+  # Nota: la imagen no se renderiza si no se encuentra el recurso (imagen de avatar). No se muestra ningún error.
+  intro = "Libertad Digital"
+  name = "Maxi"
+  description = "101101010001101101011"
+
+# Permitir anular opciones de manifiesto web
+[Languages.es.params.webmanifest]
+  name = "sitename" # utilizará "params.sitename" o "title" por defecto
+  short_name = "sitename" # igual que name
+  start_url = "/" # utilizará la URL de la página de inicio por defecto
+  theme_color = "#434648" # por defecto es "#434648" (color base del texto). También anulará `<meta name="theme-color" />`
+  background_color = "#fff" # por defecto depende de "params.defaultColor" para "light" o "auto" se establecerá en "#fff" para dark se establecerá en "#131418" (color de fondo del modo oscuro)
+  display = "standalone"
+
+
 ############################## English language ################################
 [Languages.en-gb]
   languageName = "English"

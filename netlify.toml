@@ -3,7 +3,7 @@
 
 [build]
   base = "/"
-  publish = "exampleSite/public"
+  publish = "/"
   command = "cd exampleSite && hugo --gc --themesDir ../.."
 
 [build.environment]

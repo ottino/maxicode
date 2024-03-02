@@ -4,7 +4,7 @@
 [build]
   base = "/"
   publish = "/"
-  command = "cd exampleSite && hugo --gc --themesDir ../.."
+  command = "hugo --gc --themesDir ../.."
 
 [build.environment]
   HUGO_VERSION = "0.116.1"
@@ -13,4 +13,4 @@
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-command = "cd exampleSite && hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"

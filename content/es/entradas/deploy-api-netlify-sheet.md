@@ -17,7 +17,7 @@ En este artículo, exploraremos cómo publicar un API en Netlify y luego consumi
 
 La fuente de información para nuestro API es el sitio [Infobae - Dólar Hoy](https://www.infobae.com/economia/divisas/dolar-hoy/). Utilizaremos la técnica de "scraping" para obtener los datos de las cotizaciones del dólar desde este sitio web.
 
-![Infobae Dólar Hoy](/entradas/dolar-infobae.png)
+![Infobae Dólar Hoy](/entradas/p1-dolar-infobae.png)
 
 El "scraping" es un proceso automatizado mediante el cual extraemos información de páginas web. Esto nos permite recopilar datos de interés de manera eficiente y utilizarlos en nuestras aplicaciones. En este caso específico, utilizaremos el "scraping" para obtener las cotizaciones del dólar de Infobae y posteriormente exponerlas a través de un API en Netlify.
 

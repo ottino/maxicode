@@ -1,5 +1,6 @@
 title = "MaxiCode"
-baseURL = 'https://hba.sid.one/'
+baseURL = 'https://maxicode.netlify.app/'
+
 
 enableRobotsTXT = true
 

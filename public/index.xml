@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MaxiCode</title>
-    <link>https://hba.sid.one/</link>
+    <link>https://maxicode.netlify.app/</link>
     <description>Recent content on MaxiCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hba.sid.one/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://maxicode.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publicación de un API en Netlify y Consumo con Google Sheets [Parte 1]</title>
-      <link>https://hba.sid.one/entradas/deploy-api-netlify-sheet/</link>
+      <link>https://maxicode.netlify.app/entradas/deploy-api-netlify-sheet/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hba.sid.one/entradas/deploy-api-netlify-sheet/</guid>
+      <guid>https://maxicode.netlify.app/entradas/deploy-api-netlify-sheet/</guid>
       
       <description>En este artículo, exploraremos cómo publicar un API en Netlify y luego consumirla utilizando Google Sheets. El ejemplo que vamos a desarrollar se centra en un API que proporciona las cuatro cotizaciones del dólar más importantes en Argentina:
 Dólar Libre Dólar Banco Nación Dólar MEP Dólar Tarjeta/Turista Fuente de Información y Metodología La fuente de información para nuestro API es el sitio Infobae - Dólar Hoy. Utilizaremos la técnica de &amp;ldquo;scraping&amp;rdquo; para obtener los datos de las cotizaciones del dólar desde este sitio web.</description>
@@ -21,10 +21,10 @@ Dólar Libre Dólar Banco Nación Dólar MEP Dólar Tarjeta/Turista Fuente de In
     
     <item>
       <title>About</title>
-      <link>https://hba.sid.one/pages/about/</link>
+      <link>https://maxicode.netlify.app/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hba.sid.one/pages/about/</guid>
+      <guid>https://maxicode.netlify.app/pages/about/</guid>
       
       <description>Hola soy Maxi 😏 💼 Actualmente trabajo en Banco Entre Rios 📧 Me puedes contactar en: maxi.ottino@gmail.com Mis redes son:
 m@xi </description>

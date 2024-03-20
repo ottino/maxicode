@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hba.sid.one/en-gb/pages/about/</loc>
+    <loc>https://maxicode.netlify.app/en-gb/pages/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hba.sid.one/pages/about/"
+                href="https://maxicode.netlify.app/pages/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="https://hba.sid.one/en-gb/pages/about/"
+                href="https://maxicode.netlify.app/en-gb/pages/about/"
                 />
   </url><url>
-    <loc>https://hba.sid.one/en-gb/categories/</loc>
+    <loc>https://maxicode.netlify.app/en-gb/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hba.sid.one/categories/"
+                href="https://maxicode.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="https://hba.sid.one/en-gb/categories/"
+                href="https://maxicode.netlify.app/en-gb/categories/"
                 />
   </url><url>
-    <loc>https://hba.sid.one/en-gb/</loc>
+    <loc>https://maxicode.netlify.app/en-gb/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hba.sid.one/"
+                href="https://maxicode.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="https://hba.sid.one/en-gb/"
+                href="https://maxicode.netlify.app/en-gb/"
                 />
   </url><url>
-    <loc>https://hba.sid.one/en-gb/pages/</loc>
+    <loc>https://maxicode.netlify.app/en-gb/pages/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hba.sid.one/pages/"
+                href="https://maxicode.netlify.app/pages/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="https://hba.sid.one/en-gb/pages/"
+                href="https://maxicode.netlify.app/en-gb/pages/"
                 />
   </url><url>
-    <loc>https://hba.sid.one/en-gb/tags/</loc>
+    <loc>https://maxicode.netlify.app/en-gb/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://hba.sid.one/tags/"
+                href="https://maxicode.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="https://hba.sid.one/en-gb/tags/"
+                href="https://maxicode.netlify.app/en-gb/tags/"
                 />
   </url>
 </urlset>

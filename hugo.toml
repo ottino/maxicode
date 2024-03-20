@@ -1,6 +1,8 @@
 title = "MaxiCode"
 baseURL = 'https://hba.sid.one/'
 
+enableRobotsTXT = true
+
 # This is what goes in <html lang="">
 languageCode = 'es'
 
